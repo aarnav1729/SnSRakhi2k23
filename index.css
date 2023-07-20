@@ -158,8 +158,13 @@ footer .container .row .social ul li:hover {
     color: #fff;
     font-size: 24px;
     cursor: pointer;
-    padding: 1rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
     border-radius: 50%;
+    background-color: transparent;
+    border: none;
 }
 
 .close-button:hover {
