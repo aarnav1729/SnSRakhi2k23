@@ -219,6 +219,14 @@ footer .container .row .social ul li:hover {
     background: linear-gradient(to right, #52f1e6, #68a9e9, pink, rgb(230, 87, 156));
 }
 
+@media (max-width: 576px) {
+  #backToTopBtn {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
 @media (max-width: 768px) {
     .container .earrings .item {
         flex-basis: 100%;
