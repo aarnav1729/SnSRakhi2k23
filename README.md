@@ -2,6 +2,8 @@ Sparks N Sizzles Rakhi Bazaar 2023
 
 Welcome to the Sparks N Sizzles Rakhi Bazaar 2023 project! This is a delightful e-commerce website showcasing an exquisite collection of beautiful Rakhis and accessories for Raksha Bandhan. With a sleek and modern design, this website aims to provide users with an exceptional shopping experience.
 
+Visit us: 
+
 Table of Contents
 1. Project Overview
 2. Technologies Used
