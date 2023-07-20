@@ -552,7 +552,7 @@
 
                 enlargedContainer.appendChild(enlargedImage);
 
-                const closeButton = document.createElement('div');
+                const closeButton = document.createElement('button');
                 closeButton.classList.add('close-button');
                 closeButton.innerHTML = 'X';
 
@@ -561,7 +561,7 @@
                 const whatsappIcon = document.createElement('a');
                 whatsappIcon.classList.add('whatsapp-icon');
                 whatsappIcon.href = `https://wa.me/+919849315550?text=${encodeURIComponent(image.src)}`;
-                whatsappIcon.innerHTML = '<i class="fab fa-whatsapp"></i>'; // Replace with the WhatsApp icon HTML code
+                whatsappIcon.innerHTML = '<i class="fab fa-whatsapp"></i>'; 
                 whatsappIcon.target = '_blank';
 
                 enlargedContainer.appendChild(whatsappIcon);
