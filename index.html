@@ -506,12 +506,10 @@
     </footer>
     
     <button id="backToTopBtn" title="Back to Top">
-        <i class="fas fa-arrow-up"></i>
+        <div class="arrow">
+            <i class="fas fa-arrow-up"></i>
+        </div>
     </button>
-
-    <a id="SwhatsappIcon" href="https://wa.me/+919849315550" target="_blank" style="display: none; position: fixed; top: 30px; right: 30px; z-index: 999; width: 50px; height: 50px; background-color: transparent; color: #25d366; /* WhatsApp brand color */ font-size: 24px; display: flex; justify-content: center; align-items: center;">
-        <i class="fab fa-whatsapp"></i>
-    </a>
 
     <script>
         const loader = document.querySelector(".loader");
@@ -605,13 +603,10 @@
 
         function handleScroll() {
             const backToTopBtn = document.getElementById('backToTopBtn');
-            const SwhatsappIcon = document.getElementById('SwhatsappIcon')
             if (window.scrollY > 300) {
                 backToTopBtn.style.display = 'block';
-                SwhatsappIcon.style.display = 'block';
             } else {
                 backToTopBtn.style.display = 'none';
-                SwhatsappIcon.style.display = 'none';
             }
         }
 
@@ -624,11 +619,6 @@
 
         document.addEventListener('scroll', handleScroll);
         document.getElementById('backToTopBtn').addEventListener('click', scrollToTop);
-
-        window.addEventListener('load', ()=> {
-            const SwhatsappIcon = document.getElementById('SwhatsappIcon');
-            SwhatsappIcon.style.display = 'none';
-        });
     </script>
 </body>
 </html>
